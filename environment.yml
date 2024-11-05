@@ -1,0 +1,12 @@
+name: Mortgage
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.2
+  - black
+  - flake8
+  - isort
+  - pip
+  - pip:
+    - python-dotenv
+    - -e .
